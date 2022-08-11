@@ -1,0 +1,39 @@
+/*
+...normalize
+*/
+@font-face {
+  font-family: "NanumGothic";
+  src: url("../fonts/NanumGothic.eot");
+  src: url("../fonts/NanumGothic.eot") format("embedded-opentype"),
+    url("../fonts/NanumGothic.woff") format("woff");
+}
+
+.menuBar {
+  /* padding: 1rem; */
+  background: #be5eff;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.tabs li {
+  font-size: 1rem;
+  font-weight: bold;
+  display: inline-block;
+  color: #efefef;
+  padding: 1rem;
+  font-family: "NanumGothic", "serif";
+}
+.tabs li.active {
+  background-color: #6f03b7;
+  height: 100%;
+}
+
+.headLine {
+  width: 100%;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  font-family: "NanumGothic", "serif";
+}
