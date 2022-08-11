@@ -1,7 +1,4 @@
 import React, { useState } from "react";
-
-import React, { useEffect, useState } from "react";
-
 import "./style.css";
 import Noh from "./NohCompornents//Noh";
 import Lee from "./LeeCompornents/Lee";
@@ -14,9 +11,6 @@ function App() {
   const [name, setName] = useState([0]);
 
   /* menulist에서는 출력해야할 메뉴를 숫자로 지정했음.*/
-
-  const [name, setName] = useState([0]);
-
   const menuList = {
     0: <MainContent />,
     1: <Yeom />,
@@ -79,8 +73,6 @@ function App() {
         {/* 시작 메뉴가 출력되는 컨텐츠 구역입니다. */}
         <div className="contentArea">{menuList[name]}</div>
         {/* 끝 메뉴가 출력되는 컨텐츠 구역입니다. */}
-
-        <div className="contentArea">{menuList[name]}</div>
       </div>
     </div>
   );

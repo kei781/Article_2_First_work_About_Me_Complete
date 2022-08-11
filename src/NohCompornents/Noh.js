@@ -1,8 +1,10 @@
 import "../style.css";
+import "./Noh.css";
 import React from "react";
 
 const Noh = () => {
-  return <div>Noh content 내용</div>;
+  return;
+  <div className="mainContent"></div>;
 };
 
 export default Noh;
