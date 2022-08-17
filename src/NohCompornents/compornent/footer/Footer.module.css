@@ -1,0 +1,36 @@
+.footer {
+  height: 100px;
+  margin-top: auto;
+  background-color: rgba(0, 0, 0, 0.45);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.footerContents {
+  height: 100%;
+  margin-left: 20px;
+}
+
+.footerTitle {
+  width: 420px;
+  font-weight: 600;
+  font-size: clamp(0.5rem, 3vh, 1.4rem);
+  line-height: clamp(0.6rem, 3vh, 1.5rem);
+  color: white;
+  text-transform: uppercase;
+}
+
+.footerButtons {
+  width: 120px;
+  text-align: center;
+}
+.footerButtons > div {
+  display: inline-block;
+  font-size: clamp(1.2rem, 5vw, 2.4rem);
+  line-height: clamp(1.2rem, 5vw, 2.4rem);
+  height: 1rem;
+  width: 2rem;
+  margin-left: 1rem;
+  color: white;
+}

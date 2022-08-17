@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap");
+@font-face {
+  font-family: "NanumGothic";
+  src: url("../../../../fonts/NanumGothic.eot");
+  src: url("../../../../fonts/NanumGothic.eot") format("embedded-opentype"),
+    url("../../../../fonts/NanumGothic.woff") format("woff");
+}
+.textbox {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  display: inline-flex;
+  margin-top: 5%;
+  margin-left: 2%;
+  margin-bottom: 0;
+  -webkit-text-stroke: 1px #d3d3cc;
+  color: rgba(0, 0, 0, 0);
+  font-weight: 600;
+  font-size: clamp(2rem, 9vw, 5rem);
+  line-height: clamp(2rem, 9vw, 5rem);
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-family: "Poppins", sans-serif;
+  margin-left: 2%;
+  margin-top: 0;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: clamp(3.2rem, 10vw, 7rem);
+  line-height: clamp(3.2rem, 10vw, 7rem);
+  text-transform: uppercase;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.content {
+  display: inline-flex;
+  margin-left: 2%;
+  margin-top: 20%;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-size: clamp(1rem, 9vw, 1.2rem);
+  font-weight: 500;
+  font-family: "NanumGothic";
+}
+
+.bkgBlack {
+  background-color: rgba(0, 0, 0, 0.45);
+}

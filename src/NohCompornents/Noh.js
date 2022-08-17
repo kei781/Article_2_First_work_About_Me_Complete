@@ -1,7 +1,8 @@
 import React from "react";
+import Layout from "./compornent/Layout";
 
 const Noh = () => {
-  return <div>Noh content 내용</div>;
+  return <Layout />;
 };
 
 export default Noh;

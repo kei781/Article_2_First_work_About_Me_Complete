@@ -1,0 +1,22 @@
+.Layout {
+  padding-top: 80px;
+}
+.backgrond1 {
+  background: url(https://picsum.photos/id/137/1000/1000);
+  background-size: cover;
+}
+.backgrond2 {
+  background: url(https://picsum.photos/id/237/1000/1000);
+  background-size: cover;
+}
+.backgrond3 {
+  background: url(https://picsum.photos/id/337/1000/1000);
+  background-size: cover;
+}
+.backgrond4 {
+  background: url(https://picsum.photos/id/437/1000/1000);
+  background-size: cover;
+}
+.main {
+  min-height: calc(100vh - 180px);
+}
