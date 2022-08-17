@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "NanumGothic";
+  src: url("../../fonts/NanumGothic.eot");
+  src: url("../../fonts/NanumGothic.eot") format("embedded-opentype"),
+    url("../../fonts/NanumGothic.woff") format("woff");
+}
+
+.Home {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.ProfilePicture {
+  transition: 0.6s;
+  height: 100%;
+  width: 25%;
+  text-align: center;
+  cursor: pointer;
+}
+.shadow {
+  height: 100%;
+  width: 100%;
+}
+
+.name {
+  transition: 0.6s;
+  margin-top: 20%;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: clamp(2rem, 5vw, 6rem);
+  color: white;
+  text-transform: uppercase;
+  font-family: "NanumGothic", "serif";
+}
+.ProfilePicture:hover {
+  transition: 0.6s;
+  background-color: rgba(0, 0, 0, 0.719);
+  height: 100%;
+  width: 40%;
+  text-align: center;
+}
+.ProfilePicture:hover > .shadow {
+  transition: 0.6s;
+  background-color: rgba(0, 0, 0, 0.719);
+}
+.ProfilePicture:hover > .shadow > .name {
+  transition: 0.6s;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.Yeom {
+  background-image: url(../../img/Yeom.jpg);
+  background-size: cover;
+}
+.Noh {
+  background-image: url(../../img/Noh.jpg);
+  background-size: cover;
+}
+.Lee {
+  background-image: url(../../img/Lee.jpg);
+  background-size: cover;
+}
+.Park {
+  background-image: url(../../img/Park.jpg);
+  background-size: cover;
+}
