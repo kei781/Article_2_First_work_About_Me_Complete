@@ -41,7 +41,7 @@
   margin-top: 20%;
   color: rgb(255, 255, 255);
   text-transform: uppercase;
-  font-size: clamp(1rem, 9vw, 1.2rem);
+  font-size: clamp(0.5rem, 10vw, 1rem);
   font-weight: 500;
   font-family: "NanumGothic";
 }
